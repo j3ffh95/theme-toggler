@@ -1,0 +1,12 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css");
+
+.body {
+}
+
+.label {
+  background-color: #111;
+  display: flex;
+  border-radius: 50px;
+  height: 26px;
+  width: 50px;
+}
