@@ -35,6 +35,7 @@ body.dark {
   padding: 5px;
   height: 26px;
   width: 50px;
+  transform: scale(1.5);
 }
 
 .ball {
