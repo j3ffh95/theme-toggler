@@ -11,6 +11,15 @@ body {
   margin: 0;
 }
 
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translate(24px);
+}
+
 .label {
   position: relative;
   background-color: #111;
@@ -31,6 +40,7 @@ body {
   border-radius: 50%;
   height: 22px;
   width: 22px;
+  transition: transform 0.2s linear;
 }
 
 .fa-moon {
